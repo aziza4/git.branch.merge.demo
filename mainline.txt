@@ -1,0 +1,59 @@
+
+/************************/
+/*                      */
+/*   inside Git Bash:   */
+/*                      */
+/************************/
+
+
+A. Create repository:
+=====================
+1. get inside project directory --> "cd git.branch.merge.demo"
+2. create an empty repository --> "git init"
+
+B. Add files to "Staging" area
+==============================
+3. upload all files to staging area --> "git add ."
+4. review staging area files (as "new files") --> "git status" 
+
+C. Commit files to local storage
+================================
+5. commit files (and clean staging area) --> " git commit -m "initial commit" "  
+6. show commits (or snapshot of commits) --> "git log"
+
+
+/****************************/
+/*                          */
+/*   inside Github website  */
+/*                          */
+/****************************/
+
+1. Create new Repository
+2. Copy SSH and return back to "Git Bash" [SSH="git@github.com:aziza4/git.branch.merge.demo.git"]
+
+
+/************************/
+/*                      */
+/*   inside Git Bash:   */
+/*                      */
+/************************/
+
+7. connect local and remote repositories --> "git remote add github git@github.com:aziza4/git.branch.merge.demo.git
+8. verify that we commit before push to remote --> "git log"
+9. push master branch to remote repository --> "git push github master"
+
+
+
+/****************************/
+/*                          */
+/*   inside Github website  */
+/*                          */
+/****************************/
+
+4. We can now refresh our "git.branch.merge.demo" repository to see newly added files
+
+
+D. Do some coding prior finishing-up 1st release
+================================================
+10. as an example, Lets add a second source file "mainline2.txt"...
+11. 
