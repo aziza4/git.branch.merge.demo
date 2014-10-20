@@ -44,16 +44,55 @@ C. Commit files to local storage
 
 
 
-/****************************/
-/*                          */
-/*   inside Github website  */
-/*                          */
-/****************************/
+/*****************************/
+/*                           */
+/*   back to Github website  */
+/*                           */
+/*****************************/
 
 4. We can now refresh our "git.branch.merge.demo" repository to see newly added files
 
 
+/************************/
+/*                      */
+/*   inside Git Bash:   */
+/*                      */
+/************************/
+
 D. Do some coding prior finishing-up 1st release
 ================================================
 10. as an example, Lets add a second source file "mainline2.txt"...
-11. 
+11. add to local repository --> "git add ."
+12. watch changed files prior to commit --> "git status"
+13. commit --> "git commit -m "finished for 1st release"
+14. add to remote repository --> "git push github master"
+
+/*****************************/
+/*                           */
+/*   back to Github website  */
+/*                           */
+/*****************************/
+5. Now we can see newly added files for 1st release.
+
+
+==================================================================================
+   now its time for:   ------  B R A N C H I N G  ------
+==================================================================================
+
+/************************/
+/*                      */
+/*   inside Git Bash:   */
+/*                      */
+/************************/
+
+E. Team 1 - Branch the Mainline
+================================
+1. Review all existing branches --> "git branch" [we see "master" is the only branch, and the active branch] 
+2. Create new "r2_feature1" branch --> "git branch r2_feature1" ["r2" stands for release 2]
+3. Review all branches --> "git branch" [now we see both "master" and "r2_feature1" branches, where "master" is still the active branch]
+4. Switch to branch --> "git checkout r2_feature1"
+5. Review all branches --> "git branches" [now "r2_feature1" is active]
+
+F. Team 2 - Clone the Mainline
+==============================
+1. copy from github website this project SSH
