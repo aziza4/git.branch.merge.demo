@@ -44,6 +44,8 @@ C. Commit files to local storage
 
 
 
+
+
 /****************************/
 /*                          */
 /*   inside Github website  */
@@ -57,3 +59,9 @@ D. Do some coding prior finishing-up 1st release
 ================================================
 10. as an example, Lets add a second source file "mainline2.txt"...
 11. 
+
+/****************************/
+/*                          */
+/*   This is the 'bug fix'  */
+/*                          */
+/****************************/
